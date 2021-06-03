@@ -1,0 +1,79 @@
+﻿<Page x:Class="CryptoGraphy.WpfApp.Lab3Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CryptoGraphy.WpfApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Lab3Page">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="crypt.jpeg"/>
+        </Grid.Background>
+
+        <Label Margin="100,0,0,0"  HorizontalAlignment="Center" FontFamily="Trebuchet MS" 
+        FontWeight="Bold" FontSize="18" Foreground="White">
+            Криптографические системы RSA
+        </Label>
+
+
+        <StackPanel Orientation="Horizontal" Margin="30,30,0,0">
+
+            <GroupBox Foreground="#87CEFA" Header="Добавление исходных данных" 
+                  FontWeight="DemiBold" Width="240" Height="200"
+                  Padding="5" Margin="10,-99,0,0" Background="White" 
+                   >
+
+                <StackPanel Orientation="Vertical" Margin="0,2,0,1">
+                    <TextBox HorizontalAlignment="Center" BorderBrush="LightBlue"
+                             Name="edit_original" Text="Введите исходное сообщение..." 
+                   Foreground="LightSteelBlue"  
+                              TextAlignment="Left" FontSize="11" 
+                             Height="60" MinWidth="200"></TextBox>
+
+                    <TextBox HorizontalAlignment="Center" BorderBrush="LightBlue"
+                             Name="edit_key_p" Text="Введите число р..." 
+                   Foreground="LightSteelBlue"  
+                              TextAlignment="Left" FontSize="11" Margin="0,15,0,0"
+                             Height="20" MinWidth="200"></TextBox>
+
+                    <TextBox HorizontalAlignment="Center" BorderBrush="LightBlue"
+                             Name="edit_key_q" Text="Введите число q..." 
+                   Foreground="LightSteelBlue"  
+                              TextAlignment="Left" FontSize="11" Margin="0,15,0,0"
+                             Height="20" MinWidth="200"></TextBox>
+
+
+
+                    <Button Width="100" FontFamily="bold" FontWeight="Regular"
+                        Padding="2" Height="20" Background="#4E87D4" HorizontalAlignment="Left"
+                        Foreground="White" Margin="0,10,0,10" FontSize="9" Click="Button_Generate_Keys">
+                        создать ключи
+                    </Button>
+
+                    <Button Width="100" FontFamily="bold" FontWeight="Regular"
+                        Padding="2" Height="20" Background="#4E87D4" HorizontalAlignment="Right"
+                        Foreground="White"  FontSize="9" Margin="0,-30,0,10" Click="Button_Encrypt">
+                        передать сообщение
+                    </Button>
+                </StackPanel>
+            </GroupBox>
+
+            
+            <GroupBox Foreground="#87CEFA" Header="Результат" 
+                  FontWeight="DemiBold" Padding="3" Margin="10,50,0,0"
+                       Height="260" VerticalAlignment="Top" Background="White"
+                 Width="370"
+                   >
+                <ScrollViewer>
+                    <TextBox IsEnabled="False" BorderBrush="LightBlue" FontSize="11" Margin="10,10,0,13" Name="txt_result" HorizontalAlignment="Left"  
+VerticalAlignment="Top" Width="320" Height="300" />
+                </ScrollViewer>
+                
+            </GroupBox>
+
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YC3N+1RU2azuq9mAQHvkHO3PHs4H/jNuSzCvSFLhbrQN7J41kXiisW4dfuRWpoBtWhzCVfN7W45Aa2hRBB7jEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Дарья\\source\\repos\\CryptoGraphy\\CryptoGraphy.Services\\CryptoGraphy.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Дарья\\.nuget\\packages\\secretsharingdotnet\\0.4.2\\secretsharingdotnet.0.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}

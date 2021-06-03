@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SecretSharingDotNet/0.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/SecretSharingDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SecretSharingDotNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SecretSharingDotNet/0.4.2": {
+      "sha512": "0RNyG5gyfuq8o0aGqTXN34s9Ju0j8oiT691lR6yW1MioKvIgDItOxy9cfpmVq60hjOdavrqamISSy49wGWFZKg==",
+      "type": "package",
+      "path": "secretsharingdotnet/0.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/SecretSharingDotNet.dll",
+        "lib/net452/SecretSharingDotNet.xml",
+        "lib/net46/SecretSharingDotNet.dll",
+        "lib/net46/SecretSharingDotNet.xml",
+        "lib/net461/SecretSharingDotNet.dll",
+        "lib/net461/SecretSharingDotNet.xml",
+        "lib/net462/SecretSharingDotNet.dll",
+        "lib/net462/SecretSharingDotNet.xml",
+        "lib/net47/SecretSharingDotNet.dll",
+        "lib/net47/SecretSharingDotNet.xml",
+        "lib/net471/SecretSharingDotNet.dll",
+        "lib/net471/SecretSharingDotNet.xml",
+        "lib/net472/SecretSharingDotNet.dll",
+        "lib/net472/SecretSharingDotNet.xml",
+        "lib/net48/SecretSharingDotNet.dll",
+        "lib/net48/SecretSharingDotNet.xml",
+        "lib/net5.0/SecretSharingDotNet.dll",
+        "lib/net5.0/SecretSharingDotNet.xml",
+        "lib/netcoreapp2.1/SecretSharingDotNet.dll",
+        "lib/netcoreapp2.1/SecretSharingDotNet.xml",
+        "lib/netcoreapp3.1/SecretSharingDotNet.dll",
+        "lib/netcoreapp3.1/SecretSharingDotNet.xml",
+        "lib/netstandard2.0/SecretSharingDotNet.dll",
+        "lib/netstandard2.0/SecretSharingDotNet.xml",
+        "lib/netstandard2.1/SecretSharingDotNet.dll",
+        "lib/netstandard2.1/SecretSharingDotNet.xml",
+        "secretsharingdotnet.0.4.2.nupkg.sha512",
+        "secretsharingdotnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "SecretSharingDotNet >= 0.4.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Дарья\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Дарья\\source\\repos\\CryptoGraphy\\CryptoGraphy.Services\\CryptoGraphy.Services.csproj",
+      "projectName": "CryptoGraphy.Services",
+      "projectPath": "C:\\Users\\Дарья\\source\\repos\\CryptoGraphy\\CryptoGraphy.Services\\CryptoGraphy.Services.csproj",
+      "packagesPath": "C:\\Users\\Дарья\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Дарья\\source\\repos\\CryptoGraphy\\CryptoGraphy.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Дарья\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "SecretSharingDotNet": {
+            "target": "Package",
+            "version": "[0.4.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

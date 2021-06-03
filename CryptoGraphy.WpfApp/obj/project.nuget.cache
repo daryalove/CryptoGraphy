@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eF18PUVABxcyflow77nCbpBehAnZnZIVWGpzlk0FV8VMDdCicw64Mfmue1rbDQF7SNtIZ3WX266GCArpdgN0KQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Дарья\\source\\repos\\CryptoGraphy\\CryptoGraphy.WpfApp\\CryptoGraphy.WpfApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Дарья\\.nuget\\packages\\secretsharingdotnet\\0.4.2\\secretsharingdotnet.0.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}

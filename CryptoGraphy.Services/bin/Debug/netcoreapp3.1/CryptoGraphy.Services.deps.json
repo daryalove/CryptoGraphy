@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CryptoGraphy.Services/1.0.0": {
+        "dependencies": {
+          "SecretSharingDotNet": "0.4.2"
+        },
+        "runtime": {
+          "CryptoGraphy.Services.dll": {}
+        }
+      },
+      "SecretSharingDotNet/0.4.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/SecretSharingDotNet.dll": {
+            "assemblyVersion": "0.4.2.0",
+            "fileVersion": "0.4.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CryptoGraphy.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SecretSharingDotNet/0.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0RNyG5gyfuq8o0aGqTXN34s9Ju0j8oiT691lR6yW1MioKvIgDItOxy9cfpmVq60hjOdavrqamISSy49wGWFZKg==",
+      "path": "secretsharingdotnet/0.4.2",
+      "hashPath": "secretsharingdotnet.0.4.2.nupkg.sha512"
+    }
+  }
+}

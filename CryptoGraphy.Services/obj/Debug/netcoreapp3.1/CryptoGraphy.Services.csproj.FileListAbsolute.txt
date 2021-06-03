@@ -1,0 +1,9 @@
+C:\Users\Дарья\source\repos\CryptoGraphy\CryptoGraphy.Services\bin\Debug\netcoreapp3.1\CryptoGraphy.Services.deps.json
+C:\Users\Дарья\source\repos\CryptoGraphy\CryptoGraphy.Services\bin\Debug\netcoreapp3.1\CryptoGraphy.Services.dll
+C:\Users\Дарья\source\repos\CryptoGraphy\CryptoGraphy.Services\bin\Debug\netcoreapp3.1\CryptoGraphy.Services.pdb
+C:\Users\Дарья\source\repos\CryptoGraphy\CryptoGraphy.Services\obj\Debug\netcoreapp3.1\CryptoGraphy.Services.csprojAssemblyReference.cache
+C:\Users\Дарья\source\repos\CryptoGraphy\CryptoGraphy.Services\obj\Debug\netcoreapp3.1\CryptoGraphy.Services.AssemblyInfoInputs.cache
+C:\Users\Дарья\source\repos\CryptoGraphy\CryptoGraphy.Services\obj\Debug\netcoreapp3.1\CryptoGraphy.Services.AssemblyInfo.cs
+C:\Users\Дарья\source\repos\CryptoGraphy\CryptoGraphy.Services\obj\Debug\netcoreapp3.1\CryptoGraphy.Services.dll
+C:\Users\Дарья\source\repos\CryptoGraphy\CryptoGraphy.Services\obj\Debug\netcoreapp3.1\CryptoGraphy.Services.pdb
+C:\Users\Дарья\source\repos\CryptoGraphy\CryptoGraphy.Services\obj\Debug\netcoreapp3.1\CryptoGraphy.Services.csproj.CoreCompileInputs.cache
