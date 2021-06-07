@@ -85,7 +85,7 @@ namespace CryptoGraphy.WpfApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CryptoGraphy.WpfApp;V1.0.0.0;component/lab3page.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CryptoGraphy.WpfApp;component/lab3page.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Lab3Page.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

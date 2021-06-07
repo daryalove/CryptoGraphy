@@ -63,7 +63,7 @@
                        Height="200" VerticalAlignment="Top" Background="White"
                  Width="370"
                    >
-                            <TextBox IsEnabled="False" BorderBrush="LightBlue" FontSize="12" Margin="10,10,0,13" Name="txt_result" HorizontalAlignment="Left"  
+                            <TextBox IsEnabled="true" BorderBrush="LightBlue" FontSize="12" Margin="10,10,0,13" Name="txt_result" HorizontalAlignment="Left"  
 VerticalAlignment="Top" Width="354" Height="140" />
                         </GroupBox>
 
@@ -131,7 +131,7 @@ VerticalAlignment="Top" Width="354" Height="140" />
                        Height="200" VerticalAlignment="Top" Background="White"
                  Width="370"
                    >
-                            <TextBox IsEnabled="False" BorderBrush="LightBlue" FontSize="12" Margin="10,10,0,13" Name="txt_AfinResult" HorizontalAlignment="Left"  
+                            <TextBox IsEnabled="true" BorderBrush="LightBlue" FontSize="12" Margin="10,10,0,13" Name="txt_AfinResult" HorizontalAlignment="Left"  
 VerticalAlignment="Top" Width="354" Height="140" />
                         </GroupBox>
 
@@ -185,7 +185,7 @@ VerticalAlignment="Top" Width="354" Height="140" />
                        Height="200" VerticalAlignment="Top" Background="White"
                  Width="370"
                    >
-                            <TextBox IsEnabled="False" BorderBrush="LightBlue" FontSize="12" Margin="10,10,0,13" Name="txt_WheatResult" HorizontalAlignment="Left"  
+                            <TextBox IsEnabled="true" BorderBrush="LightBlue" FontSize="12" Margin="10,10,0,13" Name="txt_WheatResult" HorizontalAlignment="Left"  
 VerticalAlignment="Top" Width="354" Height="140" />
                         </GroupBox>
 
@@ -253,7 +253,7 @@ VerticalAlignment="Top" Width="354" Height="140" />
                        Height="200" VerticalAlignment="Top" Background="White"
                  Width="370"
                    >
-                            <TextBox IsEnabled="False" BorderBrush="LightBlue" FontSize="12" Margin="10,10,0,13" Name="txt_DoubleResult" HorizontalAlignment="Left"  
+                            <TextBox IsEnabled="true" BorderBrush="LightBlue" FontSize="12" Margin="10,10,0,13" Name="txt_DoubleResult" HorizontalAlignment="Left"  
 VerticalAlignment="Top" Width="354" Height="140" />
                         </GroupBox>
 

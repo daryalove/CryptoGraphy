@@ -15,7 +15,7 @@
 
         <Label Margin="100,0,0,0"  HorizontalAlignment="Center" FontFamily="Trebuchet MS" 
         FontWeight="Bold" FontSize="18" Foreground="White">
-            Протокол Шамира
+            Метод Эль-Гамаля
         </Label>
 
 
